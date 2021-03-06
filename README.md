@@ -38,9 +38,13 @@ You have been provided with the compiled executable of a reference cache simulat
 The reference simulator takes the following command-line arguments:
 
 -h: Optional help flag that prints usage info
+
 -v: Optional verbose flag that prints trace info
--s <s>: Number of set index bits (the number of bits, not the actual number of sets!)
+
+-s : Number of set index bits (the number of bits, not the actual number of sets!)
+ 
 -E <E>: Associativity (number of lines per set)
+ 
 -b <b>: Number of block bits (the number of bits, not the actual block size!)
 -t <tracefile>: Name of the valgrind trace to replay
 For example, here is an example run of the reference simulator:
